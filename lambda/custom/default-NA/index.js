@@ -5,17 +5,16 @@
  * skill development kit.
  * This sample supports multiple languages (en-US, en-GB, de-GB).
  * The Intent Schema, Custom Slot and Sample Utterances for this skill, as well
- * as testing instructions are located at https://github.com/alexa/skill-sample-nodejs-howto
+ * as testing instructions are located at https://github.com/SmeechDE/alexa-skill-boilerplate
  **/
 
 'use strict'
-var Alexa = require("alexa-sdk")
-
-import translations from '../translations/bundle'
+const Alexa = require("alexa-sdk")
+const Translations = require("./translations/bundle").translations
 
 exports.handler = function(event, context) {
     var alexa = Alexa.handler(event, context)
-    alexa.resources = translations
+    alexa.resources = Translations
     alexa.registerHandlers(handlers)
     alexa.execute()
 }

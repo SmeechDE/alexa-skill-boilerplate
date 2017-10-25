@@ -1,7 +1,7 @@
-import DE from 'de'
-import EN from 'en'
+const DE = require('./de').de
+const EN = require('./en').en
 
-export default translations = {
-  'de': DE,
-  'en': EN
+exports.translations = {
+  de: DE,
+  en: EN
 }

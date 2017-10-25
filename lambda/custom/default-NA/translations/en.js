@@ -1,4 +1,4 @@
-export default en = {
+exports.en = {
   translation: {
     SKILL_NAME: 'Hello World',
     WELCOME_MESSAGE: "Welcome to Hello World.",
