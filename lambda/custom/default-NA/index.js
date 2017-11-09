@@ -8,9 +8,10 @@
  * as testing instructions are located at https://github.com/SmeechDE/alexa-skill-boilerplate
  **/
 
-'use strict'
 const Alexa = require('alexa-sdk')
 const Translations = require('./assets/speech/bundle').translations
+const config = require('./config')()
+const storage = require('./storage')
 
 exports.handler = function(event, context) {
   const alexa = Alexa.handler(event, context)
@@ -21,7 +22,14 @@ exports.handler = function(event, context) {
 
 const handlers = {
   'LaunchRequest': function () {
-    this.emit(':tell', 'Boilerplate by Smeech.de')
+    storage.scan(this.event.session,
+      success => {
+        this.emit(':tell', `Boilerplate by Smeech.de. ${success}`)
+      },
+      error => {
+        this.emit(':tell', `Boilerplate by Smeech.de. ${error}`)
+      }
+    )
   },
   'SessionEndedRequest': function () {
     console.log('Session ended with reason: ' + this.event.request.reason)
