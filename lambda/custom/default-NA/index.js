@@ -1,5 +1,5 @@
 /* eslint-disable  func-names */
-/* eslint quote-props: ["error", "consistent"]*/
+/* eslint quote-props: ['error', 'consistent']*/
 /**
  * This sample demonstrates a sample skill built with Amazon Alexa Skills nodejs
  * skill development kit.
@@ -9,8 +9,8 @@
  **/
 
 'use strict'
-const Alexa = require("alexa-sdk")
-const Translations = require("./assets/speech/bundle").translations
+const Alexa = require('alexa-sdk')
+const Translations = require('./assets/speech/bundle').translations
 
 exports.handler = function(event, context) {
   const alexa = Alexa.handler(event, context)
@@ -31,7 +31,7 @@ const handlers = {
     this.emit(':responseReady')
   },
   'AMAZON.HelpIntent': function () {
-    this.response.speak("You can try: 'alexa, boilerplate")
+    this.response.speak('You can try: alexa, boilerplate')
     this.emit(':responseReady')
   },
   'AMAZON.CancelIntent': function () {
@@ -39,6 +39,6 @@ const handlers = {
     this.emit(':responseReady')
   },
   'Unhandled': function () {
-    this.response.speak("Sorry, I didn't get that. You can try: 'alexa, boilerplate'")
+    this.response.speak('Sorry, I did not get that. You can try: "alexa, boilerplate"')
   }
 }
