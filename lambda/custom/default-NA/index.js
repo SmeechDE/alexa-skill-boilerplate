@@ -10,7 +10,7 @@
 
 'use strict'
 const Alexa = require("alexa-sdk")
-const Translations = require("./translations/bundle").translations
+const Translations = require("./assets/speech/bundle").translations
 
 exports.handler = function(event, context) {
   const alexa = Alexa.handler(event, context)
