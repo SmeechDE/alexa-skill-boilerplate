@@ -8,7 +8,7 @@
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-helloworld-default"
+                "uri": "ask-custom-boilerplate-default"
               },
               "regions": {
                 "NA": {

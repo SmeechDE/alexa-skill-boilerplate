@@ -1,11 +1,11 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "Hallo Welt!",
+      "invocationName": "Boilerplate",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
-          "samples": []
+          "samples": ["Alexa abbrechen"]
         },
         {
           "name": "AMAZON.HelpIntent",
@@ -14,28 +14,6 @@
         {
           "name": "AMAZON.StopIntent",
           "samples": []
-        },
-        {
-          "name": "HelloWorldIntent",
-          "samples": [
-            "hallo",
-            "sage hallo",
-            "sage hallo welt"
-          ]
-        },
-        {
-          "name": "MyNameIsIntent",
-          "slots": [
-            {
-              "name": "name",
-              "type": "AMAZON.US_FIRST_NAME"
-            }
-          ],
-          "samples": [
-            "mein name ist {name}",
-            "ich bin {name}",
-            "Du kannst mich {name} nennen"
-          ]
         }
       ]
     }

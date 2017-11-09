@@ -1,15 +1,22 @@
 {
-  "name": "skill-sample-nodejs-hello-world",
+  "name": "boilerplate",
   "version": "1.0.0",
-  "description": "Hello world sample skill",
+  "author": "Smeech (http://www.smeech.de)",
+  "description": "Boilerplate code for Alexa-Custom-Skill",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SmeechDE/alexa-skill-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SmeechDE/alexa-skill-boilerplate/issues"
+  },
+  "alexa": {
+    "applicationId": ""
+  },
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
-    "alexa-sdk": "^1.0.0"
+    "alexa-sdk": "^1.0.19"
   },
-  "devDependencies": {
-    "alexa-skill-test": "^1.1.1"
-  }
+  "devDependencies": {}
 }

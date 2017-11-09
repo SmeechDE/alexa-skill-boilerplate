@@ -3,36 +3,33 @@
     "publishingInformation": {
       "locales": {
         "de-DE": {
-          "summary": "Beispiel für kurze Beschreibung",
+          "name": "Boilerplate",
+          "summary": "Kurzbeschreibung",
+          "description": "Ausführliche Beschreibung",
           "examplePhrases": [
-            "Alexa öffne Hallo Welt",
-            "Alexa starte Hallo Welt"
+            "Alexa öffne Boilerplate",
+            "Alexa starte Boilerplate"
           ],
-          "name": "Hallo Welt",
-          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.51e74f89-4c1a-4879-bd9f-226286e4ef22/images/eyJkIjoiR1djU2xRZEx5YUV2bVY3SmdDbEZ3YjZ0b2pZeXQ1QnNIcUVxYnRqbFB0MWtrOEdOcjRIUkNWRUw2aU02cVZNdWdPMElTVEJOQnd0TE16VG9QM3ZpcnVwSHM3WWtlQVg3TzBqWG43Ym5QNFdJSlZmSEVtRWtYbWRXbGNiM0FranQiLCJpdiI6IkxuY1c3UmRGcTdOQmF5RGxkVU05N0E9PSIsInYiOjF9",
-          "description": "Beispiel für lange Beschreibung",
-          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.51e74f89-4c1a-4879-bd9f-226286e4ef22/images/eyJkIjoiNE52RXhpSTBCU0ViRDYxK3h5cyt2S0MzazNiTGk4bnEwNUJ2cG1DN0hvcnpHT1JDdWwraDc3ZEo4S2tyaHdEZllZWXM3Y1JhWEZGREFYL21RQThmajhidmUzaTBLOHdRRkVVLzRNTmVRTFFUSmxFVXZwZzVqWm9JNGVmdlkyM1ZwSkp2TWdpaiswT3FuNi9oVExFa21RPT0iLCJpdiI6Im1Pa0lrWlZqaFkvU1ZIUzkwemd4K0E9PSIsInYiOjF9"
+          "smallIconUri": "",
+          "largeIconUri": ""
         },
         "en-US": {
-          "summary": "Sample Short Description",
+          "name": "Boilerplate",
+          "summary": "Short Description",
+          "description": "Full Description",
           "examplePhrases": [
-            "Alexa open hello world",
-            "Alexa start hello world"
+            "Alexa open Boilerplate",
+            "Alexa start Boilerplate"
           ],
           "keywords": [
-            "hello",
-            "world",
-            "hallo",
-            "welt"
+            "Boilerplate"
           ],
-          "name": "Hello World",
-          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.51e74f89-4c1a-4879-bd9f-226286e4ef22/images/eyJkIjoiR1djU2xRZEx5YUV2bVY3SmdDbEZ3YjZ0b2pZeXQ1QnNIcUVxYnRqbFB0MWtrOEdOcjRIUkNWRUw2aU02cVZNdWdPMElTVEJOQnd0TE16VG9QM3ZpcnVwSHM3WWtlQVg3TzBqWG43Ym5QNFdJSlZmSEVtRWtYbWRXbGNiM0FranQiLCJpdiI6IkxuY1c3UmRGcTdOQmF5RGxkVU05N0E9PSIsInYiOjF9",
-          "description": "Sample Full Description",
-          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.51e74f89-4c1a-4879-bd9f-226286e4ef22/images/eyJkIjoiNE52RXhpSTBCU0ViRDYxK3h5cyt2S0MzazNiTGk4bnEwNUJ2cG1DN0hvcnpHT1JDdWwraDc3ZEo4S2tyaHdEZllZWXM3Y1JhWEZGREFYL21RQThmajhidmUzaTBLOHdRRkVVLzRNTmVRTFFUSmxFVXZwZzVqWm9JNGVmdlkyM1ZwSkp2TWdpaiswT3FuNi9oVExFa21RPT0iLCJpdiI6Im1Pa0lrWlZqaFkvU1ZIUzkwemd4K0E9PSIsInYiOjF9"
+          "smallIconUri": "",
+          "largeIconUri": ""
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "Sample Testing Instructions.",
+      "testingInstructions": "Testing Instructions",
       "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": []
     },
